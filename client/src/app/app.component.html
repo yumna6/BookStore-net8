@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+
+<ul>
+    @for (book of books; track book.id) {
+        <li>
+            {{book.id}} - {{book.title}}
+        </li>
+    }
+</ul>
+
+
